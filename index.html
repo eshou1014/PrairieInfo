@@ -9,13 +9,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Scrolling Nav - Start Bootstrap Template</title>
+    <title>The Prairie Trading Corp</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,57 +24,68 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
+        <div class="container" id="nav-container">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                        <div class="nav_left" data-sr-id="1" style=" visibility: visible;  -webkit-transform: translateX(0); opacity: 1;transform: translateX(0); opacity: 1;-webkit-transition: -webkit-transform 0.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; ">
+                            <img src="http://www.hsdtaxlaw.com/wp-content/uploads/2016/05/logo_placeholder.png" id="logo">
+                        </div>
+                </a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
+            <div class="collapse navbar-collapse navbar-ex1-collapse nav_right" data-sr-id="2" style="; visibility: visible;  -webkit-transform: translateX(0); opacity: 1;transform: translateX(0); opacity: 1;-webkit-transition: -webkit-transform 0.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; ">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden active">
+                            <a class="page-scroll" id="link" href="#page-top"></a>
+                        </li>
+                        <li class="link">
+                        <a class="page-scroll" id="link" href="index.html">Home</a>
+                        </li>
+                        <li class="link">
+                            <a class="page-scroll" id="link" href="#">About</a>
+                        </li>
+                        <li class="link">
+                            <a class="page-scroll" id="link" href="#">Produce with Us</a>
+                        </li>
+                        <li class="link">
+                            <a class="page-scroll" id="link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
     </nav>
+
 
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+                <div class="prairie-header">
+                    <div class="header-wrapper">
+                        <p>
+                            <strong>The Prairie Trading</strong>
+                            <br>
+                            <strong>Corp.</strong>
+                        </p>
+
+                        <p>&nbsp;</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,20 +94,34 @@
     <!-- About Section -->
     <section id="about" class="about-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>About Section</h1>
+                <div class="about-header">
+                    <h1>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</h1>
+                    <h2>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</h2>
                 </div>
-            </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <img class="fashion-district" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/13103429_1736461356598301_6777169868591811346_n.jpg?oh=07cb456ccf35178b729ea2764c6bfae3&oe=58AE4B50">
+                    </div>
+                </div>
+                <div class="nyc-description">
+                    <h3>New York City</h3>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non</p>
+                </div>
         </div>
     </section>
 
     <!-- Services Section -->
     <section id="services" class="services-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Services Section</h1>
+                <div class="services-header">
+                    <h1>Services</h1>
+                    <p>High Quality Garments</p>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</p>
+                    <p></p>
+                </div>
+                <div class="clients-list">
+                    <div class="row">
+                        <div class=""
                 </div>
             </div>
         </div>
@@ -104,9 +130,18 @@
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
         <div class="container">
-            <div class="row">
+                <div class="contact-header">
+                    <span class="site-address">
+                        The Prairie Trading Corp, 209 W 38th st, Unit 1102, New York, NY, 10018, United States
+                    </span>
+                    <br>
+                    <span rel="tel">212-921-1859</span>
+                    <a href="mailto:piauto888@aol.com"><span>piauto888@aol.com</span></a>
+                </div>
                 <div class="col-lg-12">
-                    <h1>Contact Section</h1>
+                    <div class="rights-reserved">
+                        <p>The Prairie Trading Corp. 2016. all rights reserved</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -121,7 +156,6 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-
 </body>
 
 </html>
