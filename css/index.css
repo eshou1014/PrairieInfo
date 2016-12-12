@@ -169,6 +169,26 @@ a {
   font-family: "Merriweather";
 }
 
+.clients-list img {
+  width: 50%;
+  margin: auto;
+  display:block;
+}
+
+.clients-list h1 {
+  padding-top: 50px;
+  color: #880c4a;
+  font-family: "Merriweather";
+}
+
+.sachin-babi {
+  padding-top: 20px;
+}
+
+.dkny {
+  padding-top: 10px;
+}
+
 .contact-section {
   font-family: "futura-pt";
   font-size: 14px;
