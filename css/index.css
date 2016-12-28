@@ -176,7 +176,7 @@ a {
 }
 
 .clients-list img {
-  width: 50%;
+  width: 70%;
   margin: auto;
   display:block;
 }
@@ -193,6 +193,10 @@ a {
 
 .dkny {
   padding-top: 10px;
+}
+
+.etc {
+  padding-top: 50px;
 }
 
 .contact-section {
