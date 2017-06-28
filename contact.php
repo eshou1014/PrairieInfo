@@ -1,4 +1,5 @@
 <?php
+
 $from = 'Demo contact form <demo@domain.com>';
 $sendTo = 'Demo contact form <demo@domain.com>';
 $subject = 'New message from contact form';
